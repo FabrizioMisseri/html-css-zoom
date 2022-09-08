@@ -23,6 +23,7 @@ html{
     justify-content: space-between;
 }
 
+
 /* main */
 main{
     width: 100%;
@@ -36,20 +37,23 @@ main{
     margin: auto;
     width: 90%;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /* debug */
     background-color: yellow;
 }
 
 .row{
-    margin-bottom: 10px;
-    height: calc(100% / 5 - 10px);
+    
+    height: calc(100% / 5 - 5px);
     width: 100%;
     /* debug */
     background-color: blue;
 }
 
 .column{
-    width: calc(100% / 7 - (10px / 6));
+    width: calc(100% / 7 - (20px / 6));
     height: 100%;
     background-image: url(https://picsum.photos/200);
     background-size: cover;
@@ -74,3 +78,4 @@ main{
     height: 80px;
     background-color: #1B1B1B;
 }
+
