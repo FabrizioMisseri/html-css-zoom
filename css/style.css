@@ -53,6 +53,7 @@ main{
     height: calc(100% - 80px);
     background-color: black;
     padding-top: 80px;
+    overflow-y: auto;
 }
 
 /* GRID */
