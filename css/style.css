@@ -80,6 +80,8 @@ main{
     left: 0;
     bottom: 0;
     font-size: .8rem;
+    padding: .3em;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -120,4 +122,19 @@ main{
     color: red;
     line-height: 80px;
     vertical-align: middle;
+}
+
+
+/* speaker-view */
+.speaker-view{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.speaker-view span{
+    margin: .2em;
+    padding: .4em;
+    background-color: #807d7d67;
+    border-radius: 10px;
 }
