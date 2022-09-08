@@ -35,24 +35,37 @@ main{
 .grid{
     margin: auto;
     width: 90%;
-    /* debug */
     height: 450px;
+    /* debug */
     background-color: yellow;
 }
 
 .row{
     margin-bottom: 10px;
     height: calc(100% / 5 - 10px);
-    /* debug */
     width: 100%;
+    /* debug */
     background-color: blue;
 }
 
 .column{
     width: calc(100% / 7 - (10px / 6));
-    /* debug */
     height: 100%;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* debug */
     background-color: green;
+}
+
+.column span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: .9rem;
+    /* debug */
+    background-color: red;
 }
 
 /* toolbar */
