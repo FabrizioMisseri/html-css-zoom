@@ -23,6 +23,8 @@ ul li{
     display: inline-block;
 }
 
+
+
 /* COMMON */
 .col-green{
     color: green;
@@ -41,6 +43,9 @@ ul li{
     justify-content: space-between;
 }
 
+.align-center{
+    align-items: center;
+}
 
 /* main */
 main{
@@ -95,7 +100,6 @@ main{
 
 .toolbar .item{
     padding: 1em;
-    text-align: center;
 }
 
 .toolbar .item .icona{
@@ -118,10 +122,7 @@ main{
 
 .item:last-child{
     background-color: #807d7d67;
-    padding: 0 2em;
     color: red;
-    line-height: 80px;
-    vertical-align: middle;
 }
 
 
