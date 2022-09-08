@@ -100,6 +100,7 @@ main{
 
 .toolbar .item{
     padding: 1em;
+    text-align: center;
 }
 
 .toolbar .item .icona{
