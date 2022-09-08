@@ -23,6 +23,10 @@ ul li{
     display: inline-block;
 }
 
+main , section{
+    overflow-y: auto;
+}
+
 
 
 /* COMMON */
@@ -47,13 +51,14 @@ ul li{
     align-items: center;
 }
 
+
+
 /* main */
 main{
     width: 100%;
     height: calc(100% - 80px);
     background-color: black;
     padding-top: 80px;
-    overflow-y: auto;
 }
 
 /* GRID */
