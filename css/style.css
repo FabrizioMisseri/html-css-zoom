@@ -19,10 +19,6 @@ ul{
     list-style-type: none;
 }
 
-ul li{
-    display: inline-block;
-}
-
 header , main{
     background-color: black;
 }
@@ -53,6 +49,10 @@ img{
 
 .justify-between{
     justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
 }
 
 .align-center{
@@ -113,8 +113,7 @@ main{
 }
 
 .toolbar .item{
-    padding: 1em;
-    text-align: center;
+    height: 100%;
 }
 
 .toolbar .item .icona{
@@ -130,13 +129,20 @@ main{
     margin: .7em;
 }
 
-.item li{
-    vertical-align: middle;
-    margin: .3em;
+.item ul{
+    height: 100%;
 }
 
-.item:last-child{
+.item li{
+    text-align: center;
+    margin: .35em;
+}
+
+
+.item:last-child button{
     background-color: #807d7d67;
     color: red;
+    height: 100%;
+    padding: 0 1em;
+    border: none;
 }
-
